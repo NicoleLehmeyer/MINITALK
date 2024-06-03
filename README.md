@@ -3,7 +3,7 @@
 **minitalk** is a 42 project which entails creating a small data exchange program with UNIX signals.
 
 
-**THE BRIEF:**
+>THE BRIEF:
 
 • Executable files: 'client' & 'server'
 
