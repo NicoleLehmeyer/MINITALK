@@ -34,12 +34,12 @@ Create executables:
 make
 ```
 
-In one terminal:
+Run server in one terminal:
 ```
 ./server
 ```
 
-In another terminal:
+Run client in another terminal:
 ```
 ./client <server_PID> <string__to_send>
 ```
