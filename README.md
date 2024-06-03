@@ -1,10 +1,10 @@
 # MINITALK
 
-**minitalk** is a 42 project which entails creating a small data exchange program with UNIX signals.
+**minitalk** is a 42 project which entails creating a small client-server data exchange program with UNIX signals.
 
 
 
->THE BRIEF:
+## The Brief:
 
 • Executable files: 'client' & 'server'
 
@@ -27,7 +27,23 @@
 • No seg fault/bus error/double free etc.
 
 
-To execute, open two windows & make:
+## Run Program:
+
+Create executables:
+'''
+make
 '''
 
+In one terminal:
 '''
+./server
+'''
+
+In another terminal:
+'''
+./client <server_PID> <string__to_send>
+'''
+
+## My Approach:
+
+1. 
