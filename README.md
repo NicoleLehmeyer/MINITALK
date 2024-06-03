@@ -30,19 +30,19 @@
 ## Run Program:
 
 Create executables:
-'''
+```
 make
-'''
+```
 
 In one terminal:
-'''
+```
 ./server
-'''
+```
 
 In another terminal:
-'''
+```
 ./client <server_PID> <string__to_send>
-'''
+```
 
 ## My Approach:
 
