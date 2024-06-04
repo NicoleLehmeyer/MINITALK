@@ -2,7 +2,7 @@
 
 **minitalk** is a 42 project which entails creating a small client-server data exchange program with UNIX signals.
 
-
+## Grade: 113%
 
 ## The Brief:
 
@@ -44,6 +44,7 @@ Run client in another terminal:
 ./client <server_PID> <string__to_send>
 ```
 
-## My Approach:
+## Principal Method:
 
-1. 
+1.  Client converts the inputted characters to bits, sending them to the server using SIGUSR1 if bit is a 1, or SIGUSR2 if bit is 0, for 8 bits (equiv. to char)
+2.  Server receives signals, storing the bits in variagle 'g_store' until until 8 bits been received. This is then printed in the output in the server's main function.
