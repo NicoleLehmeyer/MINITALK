@@ -43,7 +43,7 @@ int	main(void)
 		return (1);
 	}
 	ft_printf("Input in client terminal with prototype");
-	ft_printf(" \"./client *PID* *MESSAGE_AS_ARGUMENT*\"");
+	ft_printf(" \"./client <PID> <MESSAGE_AS_ARGUMENT>\"");
 	ft_printf("\nPID: %d\n", getpid());
 	while (1)
 	{
