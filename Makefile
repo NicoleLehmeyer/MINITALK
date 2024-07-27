@@ -3,19 +3,19 @@
 SERVER = server
 CLIENT = client
 
-SERVER_SOURCE = server.c
-CLIENT_SOURCE = client.c
+SERVER_SOURCE = src/server.c
+CLIENT_SOURCE = src/client.c
 
 LIBFT_ARCHIVE = LIBFT/libft.a
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -Iinclude
 
-SERVER_OBJECT = $(SERVER_SOURCE:%.c=%.o)
-CLIENT_OBJECT = $(CLIENT_SOURCE:%.c=%.o)
+SERVER_OBJECT = $(SERVER_SOURCE:%.c=obj/%.o)
+CLIENT_OBJECT = $(CLIENT_SOURCE:%.c=obj/%.o)
 
 all: $(LIBFT_ARCHIVE) $(SERVER) $(CLIENT)
 
-%.o: %.c
+obj/%.o: %.c
 	cc $(FLAGS) -c $< -o $@
 
 $(LIBFT_ARCHIVE):
@@ -28,7 +28,7 @@ $(CLIENT): $(LIBFT_ARCHIVE) $(CLIENT_OBJECT)
 	cc $(FLAGS) -o $(CLIENT) $(CLIENT_OBJECT) $(LIBFT_ARCHIVE)
 
 clean:
-	rm -f $(SERVER_OBJECT) $(CLIENT_OBJECT)
+	rm -rf obj
 	make fclean -s -C LIBFT
 
 fclean: clean
