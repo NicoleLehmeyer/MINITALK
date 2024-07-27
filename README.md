@@ -10,7 +10,11 @@
 <br>
 <br>
 <b>Requirements:</b><br>
-  The communication program must consist of executable files, 'client' & 'server.' 'Client' must take 2 parameters - 'Server PID' & 'String to send'. You may only use 2 signals - SIGUSR1 & SIGUSR2. The client must send the string to the server, and the server must print this string... quickly. Use of one global variable is allowed. Program must be written in C and Norminette compliant, without seg fault/bus error/double free etc.
+  The communication program must consist of executable files, 'client' & 'server.'<br>
+  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br>
+  You may only use 2 signals - SIGUSR1 & SIGUSR2.<br>
+  The client must send the string to the server, and the server must print this string... quickly.<br>
+  Use of one global variable is allowed. Program must be written in C and Norminette compliant, without seg fault/bus error/double free etc.<br>
 </p>
 
 
