@@ -10,7 +10,7 @@
 <br>
 <br>
 <b>Requirements:</b><br>
-  The communication program must consist of executable files, 'client' & 'server.'<br>
+  The communication program must consist of executable files, 'client' & 'server.'<br><br>
   'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br>
   You may only use 2 signals - SIGUSR1 & SIGUSR2.<br>
   The client must send the string to the server, and the server must print this string... quickly.<br>
