@@ -9,12 +9,12 @@
 ** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **
 <br>
 <br>
-<b>Requirements:</b><br>
+<b>Requirements:</b><br><br>
   The communication program must consist of executable files, 'client' & 'server.'<br><br>
-  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br>
-  You may only use 2 signals - SIGUSR1 & SIGUSR2.<br>
-  The client must send the string to the server, and the server must print this string... quickly.<br>
-  Use of one global variable is allowed. Program must be written in C and Norminette compliant, without seg fault/bus error/double free etc.<br>
+  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br><br>
+  You may only use 2 signals - SIGUSR1 & SIGUSR2.<br><br>
+  The client must send the string to the server, and the server must print this string... quickly.<br><br>
+  Use of one global variable is allowed. Program must be written in C and Norminette compliant, without seg fault/bus error/double free etc.<br><br>
 </p>
 
 
