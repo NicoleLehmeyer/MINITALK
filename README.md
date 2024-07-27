@@ -6,8 +6,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
 <b>Requirements:</b><br><br>
   The communication program must consist of executable files, 'client' & 'server.'<br><br>
   'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br><br>
