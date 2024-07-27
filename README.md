@@ -1,7 +1,7 @@
 # MINITALK
 
 <p>
-  <b><a href="https://github.com/NicoleLehmeyer/MINITALK/blob/main/subject/MINITALK_SUBJECT.pdf">minitalk</a></b>: 42 project which entails creating a small client-server data exchange program with UNIX signals.<br>
+  <b><a href="https://github.com/NicoleLehmeyer/MINITALK/blob/main/subject/MINITALK_SUBJECT.pdf">'minitalk'</a></b> is a 42 project which entails creating a small client-server data exchange program with UNIX signals.<br><br>
   <b>minitalk Grade: 113%</b><br><br>
 </p>
 
