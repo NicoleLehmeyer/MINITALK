@@ -36,7 +36,7 @@ Run client in another terminal:
 ## Principal Method:
 
 1.  Client converts the inputted characters to bits, sending them to the server using SIGUSR1 if bit is a 1, or SIGUSR2 if bit is 0, for 8 bits (equiv. to char)
-2.  Server receives signals, storing the bits in variagle 'g_store' until until 8 bits been received. This is then printed in the output in the server's main function.
+2.  Server receives signals, storing the bits in variable 'g_store' until until 8 bits been received. This is then printed in the output in the server's main function.
 
 ---
 <p align="center">
