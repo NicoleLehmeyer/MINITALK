@@ -2,12 +2,14 @@
 
 <p>
   <b><a href="https://github.com/NicoleLehmeyer/MINITALK/blob/main/subject/MINITALK_SUBJECT.pdf">'minitalk'</a></b> is a 42 project which entails creating a small client-server data exchange program with UNIX signals.<br><br>
-  <b>minitalk Grade: 113%</b><br><br>
-</p>
+  <b>minitalk Grade: 113%</b>
+  <br>
+  <br>
 
-<p>
-** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **<br><br>
-<b>Requirements:</b>
+** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **
+<br>
+<br>
+<b>Requirements:</b><br>
   The communication program must consist of executable files, 'client' & 'server.' 'Client' must take 2 parameters - 'Server PID' & 'String to send'. You may only use 2 signals - SIGUSR1 & SIGUSR2. The client must send the string to the server, and the server must print this string... quickly. Use of one global variable is allowed. Program must be written in C and Norminette compliant, without seg fault/bus error/double free etc.
 </p>
 
