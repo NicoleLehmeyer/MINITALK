@@ -6,7 +6,7 @@
 </p>
 
 <p>
-** The above 3 projects are compliant to the '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norm</a>' (42's organisational syntax) **<br><br>
+** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **<br><br>
 </p>
 
 
