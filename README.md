@@ -6,6 +6,7 @@
 <br>
 <br>
 <br>
+  <br>
 ** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **
 <br>
 <br>
