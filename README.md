@@ -7,10 +7,10 @@
 <br>
 <br>
 <b>Requirements:</b><br><br>
-  The communication program must consist of executable files, 'client' & 'server.'<br><br>
-  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br><br>
-  May only use 2 signals - SIGUSR1 & SIGUSR2.<br><br>
-  The client must send the string to the server, and the server must print this string... quickly.<br><br>
+  The communication program must consist of executable files, 'client' & 'server.'<br>
+  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br>
+  May only use 2 signals - SIGUSR1 & SIGUSR2.<br>
+  The client must send the string to the server, and the server must print this string... quickly.<br>
   Use of one global variable is allowed. Program must be written in C and <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a> (42 organisational syntax) compliant, without seg fault/bus error/double free etc.
   <br>
   <br>
