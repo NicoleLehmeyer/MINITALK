@@ -1,12 +1,13 @@
 # MINITALK
 
 <p>
-  <b><a href="https://github.com/NicoleLehmeyer/MINITALK/blob/main/subject/MINITALK_SUBJECT.pdf">'minitalk'</a></b> is a 42 project which entails creating a small client-server data exchange program with UNIX signals.<br><br>
-  <b>minitalk Grade: 113%</b>
-  <br>
-  <br>
-
+<b><a href="https://github.com/NicoleLehmeyer/MINITALK/blob/main/subject/MINITALK_SUBJECT.pdf">'minitalk'</a></b> is a 42 project which entails creating a small client-server data exchange program with UNIX signals.<br><br>
+<b>minitalk Grade: 113%</b>
+<br>
+<br>
+<br>
 ** This project is compliant to '<a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a>' (42's organisational syntax) **
+<br>
 <br>
 <br>
 <b>Requirements:</b><br><br>
