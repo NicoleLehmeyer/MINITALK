@@ -7,17 +7,17 @@
 <br>
 <br>
 <b>Requirements:</b><br><br>
-  The communication program must consist of executable files, 'client' & 'server.'<br>
-  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br>
-  May only use 2 signals - SIGUSR1 & SIGUSR2.<br>
-  The client must send the string to the server, and the server must print this string... quickly.<br>
+  The communication program must consist of executable files, 'client' & 'server.'<br><br>
+  'Client' must take 2 parameters - 'Server PID' & 'String to send'.<br><br>
+  May only use 2 signals - SIGUSR1 & SIGUSR2.<br><br>
+  The client must send the string to the server, and the server must print this string... quickly.<br><br>
   Use of one global variable is allowed. Program must be written in C and <a href="https://github.com/NicoleLehmeyer/LIBFT/blob/main/subject/norme.pdf">Norminette</a> (42 organisational syntax) compliant, without seg fault/bus error/double free etc.
   <br>
   <br>
   <br>
 <b>Method:</b><br><br>
-1.  Client converts the inputted characters to bits, sending them to the server using SIGUSR1 if bit is a 1, or SIGUSR2 if bit is 0, for 8 bits (equiv. to char)<br>
-2.  Server receives signals, storing the bits in variable 'g_store' until until 8 bits been received. This is then printed in the output in the server's main function.<br>
+1.  Client converts the inputted characters to bits, sending them to the server using SIGUSR1 if bit is a 1, or SIGUSR2 if bit is 0, for 8 bits (equiv. to char)<br><br>
+2.  Server receives signals, storing the bits in variable 'g_store' until until 8 bits been received. This is then printed in the output in the server's main function.<br><br>
 <br>
 </p>
 
