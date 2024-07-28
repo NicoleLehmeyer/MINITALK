@@ -25,20 +25,11 @@
 
 ## Run Program:
 
-Create executables:
-```
-make
-```
+Create executables: ```make```
 
-Run server in one terminal:
-```
-./server
-```
+Run server in one terminal: ```./server```
 
-Run client in another terminal:
-```
-./client <server_PID> <string__to_send>
-```
+Run client in another terminal: ```./client <server_PID> <string__to_send>```
 
 ---
 <p align="center">
