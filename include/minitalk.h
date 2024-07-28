@@ -16,6 +16,6 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <stdio.h>
-# include "LIBFT/libft.h"
+# include "../include/LIBFT/include/libft.h"
 
 #endif
